@@ -1,8 +1,9 @@
 # dependencies
 node_modules
 
-# dev_design
-plugin
-
 # env
 .vscode
+
+#output
+script
+style

@@ -9,7 +9,7 @@
       "sourceMap": false,
       "inlineSources": false,
       "types": ["node"],
-      "outDir": "src/js"
+      "outDir": "components/js"
     },
-    "include": ["plugin/**/*"]
+    "include": ["components/**/*"]
   }

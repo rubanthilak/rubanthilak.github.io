@@ -7,7 +7,7 @@ const ASSET_PATH = process.env.ASSET_PATH || '/';
 
 module.exports = {
     entry: {
-        app: './plugin'
+        app: './components'
     },
     mode: 'production',
     module: {
@@ -77,8 +77,8 @@ module.exports = {
         ],
     },
     output: {
-        filename: `js/script.js`,
-        path: path.resolve(__dirname, 'src'),
+        filename: `script.js`,
+        path: path.resolve(__dirname, 'script'),
         publicPath: ASSET_PATH
     },
     plugins: [
@@ -86,7 +86,7 @@ module.exports = {
             'process.env.ASSET_PATH': JSON.stringify(ASSET_PATH),
         }),
         new MiniCssExtractPlugin({
-            filename: 'css/style.css',
+            filename: '../style/main.css',
         }),
     ],
     optimization: {
