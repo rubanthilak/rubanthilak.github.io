@@ -7,7 +7,7 @@ const ASSET_PATH = process.env.ASSET_PATH || '/';
 
 module.exports = {
     entry: {
-        app: './components'
+        app: './webpack'
     },
     mode: 'production',
     module: {
@@ -25,7 +25,7 @@ module.exports = {
                     options: {
                         name: '[name].[ext]',
                         outputPath: 'img/',
-                        publicPath: 'img/', // this is added inorder to overwrite the url() in the css file.
+                        publicPath: '../img/', // this is added inorder to overwrite the url() in the css file.
                     },
                   },
                 ],
@@ -77,8 +77,8 @@ module.exports = {
         ],
     },
     output: {
-        filename: `script.js`,
-        path: path.resolve(__dirname, 'script'),
+        filename: `js/script.js`,
+        path: path.resolve(__dirname, 'src'),
         publicPath: ASSET_PATH
     },
     plugins: [
@@ -86,7 +86,7 @@ module.exports = {
             'process.env.ASSET_PATH': JSON.stringify(ASSET_PATH),
         }),
         new MiniCssExtractPlugin({
-            filename: '../style/main.css',
+            filename: 'css/style.css',
         }),
     ],
     optimization: {

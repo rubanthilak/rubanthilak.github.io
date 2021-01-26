@@ -9,7 +9,7 @@
       "sourceMap": false,
       "inlineSources": false,
       "types": ["node"],
-      "outDir": "components/js"
+      "outDir": "webpack/js"
     },
-    "include": ["components/**/*"]
+    "include": ["webpack/**/*"]
   }
