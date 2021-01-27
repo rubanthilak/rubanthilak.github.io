@@ -20,7 +20,6 @@ body{
     margin: 0px;
     padding: 0px;
     background-color: var(--background-color);
-    height: 100px;
     font-family: var(--font-family);
     color: var(--primary-text-color);
     transition: all 0.9s;
@@ -48,16 +47,28 @@ a{
     cursor: pointer;
 }
 
+section{
+    height: 100vh;
+    min-height: 700px;
+    max-height: 900px;
+
+    @media screen and (max-width:1040px) {
+        height: auto;
+        min-height: auto;
+        max-height: auto;
+    }
+}
+
 .container{
     width: 1200px;
     margin: 0px auto;
 
-    @media screen and (max-width:1220px) {
+    @media screen and (max-width:1240px) {
         width: 1000px;
     }
 
-    @media screen and (max-width:1020px) {
-        width: 90%;
+    @media screen and (max-width:1040px) {
+        width: 85%;
     }
 }
 

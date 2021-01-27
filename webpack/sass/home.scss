@@ -1,6 +1,4 @@
 .home {
-    height:100vh;
-    
     .theme-switch{
         cursor: pointer;
         position: relative;
@@ -26,7 +24,7 @@
     }
 
     .hero-container{
-        margin-top: 150px;
+        padding: 150px 0px;
     }
 
     .hero-title{
