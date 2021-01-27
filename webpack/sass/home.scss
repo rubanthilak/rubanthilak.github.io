@@ -1,61 +1,61 @@
 .home {
-    .theme-switch{
-        cursor: pointer;
-        position: relative;
+  .theme-switch {
+    cursor: pointer;
+    position: relative;
 
-        .tooltip {
-            opacity: 0;
-            width: 60px;
-            background-color: transparent;
-            color: var(--terinary-text-color);
-            padding:0;
-            font-size: 11px;
-            line-height: 12px;
-            /* Position the tooltip */
-            position: absolute;
-            z-index: 1;
-            bottom: 10px;
-            transition: 0.2s;
-          }
-
-          &:hover .tooltip {
-            opacity: 1;
-          }
+    .tooltip {
+      opacity: 0;
+      width: 60px;
+      background-color: transparent;
+      color: var(--terinary-text-color);
+      padding: 0;
+      font-size: 11px;
+      line-height: 12px;
+      /* Position the tooltip */
+      position: absolute;
+      z-index: 1;
+      bottom: 10px;
+      transition: 0.2s;
     }
 
-    .hero-container{
-        padding: 150px 0px;
+    &:hover .tooltip {
+      opacity: 1;
     }
+  }
 
-    .hero-title{
-        margin-bottom: 20px;
+  .hero-container {
+    padding: 250px 0px;
+  }
 
-        h1{
-            font-size: 110px;
-            line-height: 114px;
-            font-weight: 600;
-            font-style: normal;
-        }
+  .hero-title {
+    margin-bottom: 20px;
+
+    h1 {
+      font-size: 110px;
+      line-height: 114px;
+      font-weight: 600;
+      font-style: normal;
     }
+  }
 
-    .hero-content{
-        width: 59%;
-        margin-bottom: 20px;
+  .hero-content {
+    width: 59%;
+    margin-bottom: 20px;
 
-        p{
-            font-size: 24px;
-            line-height: 32px;
-            font-weight: 400;
-            font-style: normal;
-        }
+    p {
+      font-size: 24px;
+      line-height: 32px;
+      font-weight: 400;
+      font-style: normal;
     }
+  }
 
-    .hero-links{
-        a{
-            font-size: 16px;
-            line-height: 25px;
-            font-weight: 700;
-            font-style: normal;
-        }
+  .hero-links {
+    a {
+      font-size: 16px;
+      line-height: 25px;
+      font-weight: 700;
+      font-style: normal;
     }
+  }
 }
