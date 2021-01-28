@@ -43,7 +43,7 @@
     h1 {
       font-size: 36px;
       line-height: 44px;
-      font-weight: 600;
+      font-weight: 800;
       margin-bottom: 1rem;
     }
   }
@@ -55,12 +55,18 @@
       font-weight: 400;
       margin-bottom: 2rem;
     }
+
+    a{
+      font-weight: 600;
+    }
   }
 
   .work-btn {
     a {
       color: var(--background-color);
       background-color: var(--terinary-text-color);
+      border-radius: 2px;
+      font-weight: 800;
       padding: 10px 20px;
     }
   }

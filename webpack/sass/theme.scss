@@ -22,7 +22,6 @@ body{
     background-color: var(--background-color);
     font-family: var(--font-family);
     color: var(--primary-text-color);
-    transition: all 0.9s;
 }
 
 h1,
@@ -51,11 +50,15 @@ section{
     height: 100vh;
     min-height: 700px;
     max-height: 900px;
-    position: relative;
 
-    @media screen and (max-width:1040px) {
-        height: auto;
-        min-height: auto;
+    @media screen and (max-width:1024px) {
+        height: 100vh;
+        max-height: auto;
+    }
+
+    
+    @media screen and (max-width:600px) {
+        height: 100vh;
         max-height: auto;
     }
 }
