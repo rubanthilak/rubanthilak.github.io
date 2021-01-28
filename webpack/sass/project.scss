@@ -28,11 +28,18 @@
   .work-container {
     height: 100%;
     display: flex;
+
+    @media screen and (max-width:750px) {
+      flex-direction: column-reverse;
+    }
   }
 
   .work-content {
     margin: auto 0px auto 0px;
     width: 30%;
+    @media screen and (max-width:750px) {
+      width: 100%;
+    }
   }
 
   .work-hero{
