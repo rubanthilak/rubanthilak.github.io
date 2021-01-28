@@ -3,6 +3,23 @@
     height: calc(100vh - 81px);
     min-height: 600px;
     max-height: 800px;
+
+    @media screen and (max-width: 750px) {
+      height: auto;
+      min-height: auto;
+      max-height: 600px;
+      margin: 100px 0px;
+    }
+
+  }
+
+  section {
+    @media screen and (max-width: 750px) {
+      height: auto;
+      min-height: auto;
+      max-height: 600px;
+      margin: 100px 0px;
+    }
   }
 
   .ft-text {
@@ -30,8 +47,8 @@
     justify-content: space-between;
 
     @media screen and (max-width: 750px) {
-    justify-content: start;
-    flex-direction: column-reverse;
+      justify-content: start;
+      flex-direction: column-reverse;
     }
   }
 
@@ -59,10 +76,14 @@
         text-align: left;
       }
 
-      img {
+      img,video {
         @media screen and (max-width: 750px) {
           width: 100%;
         }
+      }
+
+      video {
+        box-shadow: var(--shadow);
       }
     }
   }

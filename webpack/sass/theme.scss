@@ -5,6 +5,7 @@
     --terinary-text-color: #191545;
     --background-color: #ffffff;
     --red-color: #f3317a;
+    --shadow: 3px 5px 15px #1915452f;
 }
 
 :root[data-theme="theme-dark"]{
@@ -14,6 +15,7 @@
     --terinary-text-color: #c4c1df;
     --background-color: #12181b;
     --red-color: #f3317a;
+    --shadow: 3px 5px 10px #19154563;
 }
 
 body{
