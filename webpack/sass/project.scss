@@ -76,7 +76,7 @@
         text-align: left;
       }
 
-      img,video {
+      img {
         @media screen and (max-width: 750px) {
           width: 100%;
         }
@@ -84,6 +84,10 @@
 
       video {
         box-shadow: var(--shadow);
+        @media screen and (max-width: 750px) {
+          width: 360px;
+          height: auto;
+        }
       }
     }
   }
