@@ -1,0 +1,23 @@
+{
+  "name": "rubanthilak.github.io",
+  "version": "1.0.0",
+  "description": "My Page",
+  "keywords": [
+    "profile"
+  ],
+  "homepage": "https://github.com/rubanthilak/rubanthilak.github.io#readme",
+  "bugs": {
+    "url": "https://github.com/rubanthilak/rubanthilak.github.io/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rubanthilak/rubanthilak.github.io.git"
+  },
+  "license": "ISC",
+  "author": "Ruban Thilak",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
